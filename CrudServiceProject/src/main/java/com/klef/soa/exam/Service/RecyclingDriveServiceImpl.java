@@ -27,11 +27,7 @@ public class RecyclingDriveServiceImpl implements RecyclingDriveService {
 
     @Override
     public String deleteById(Long id) {
-        if (repo.existsById(id)) {
-            repo.deleteById(id);
-            return "Recycling Drive Deleted Successfully";
-        } else {
-            return "Recycling Drive ID Not Found";
-        }
+        repo.deleteById(id);
+        return "Recycling Drive Deleted Successfully";
     }
 }

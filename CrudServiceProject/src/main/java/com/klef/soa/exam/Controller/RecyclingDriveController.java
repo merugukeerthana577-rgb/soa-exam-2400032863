@@ -12,6 +12,7 @@ import com.klef.soa.exam.Entity.RecyclingDrive;
 import com.klef.soa.exam.Service.RecyclingDriveService;
 
 @RestController
+@RequestMapping("/RecyclingDrive")
 public class RecyclingDriveController {
 
     @Autowired
