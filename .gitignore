@@ -1,0 +1,8 @@
+
+.metadata/
+CrudServiceProject.zip
+**/target/
+**/node_modules/
+**/dist/
+.env
+.env.*
